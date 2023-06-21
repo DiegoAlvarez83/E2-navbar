@@ -1,0 +1,32 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+body {
+  font-family: "Tilt Prism", cursive;
+}
+nav {
+  background-color: red;
+  font-size: xx-large;
+}
+ul a {
+  text-decoration: none;
+  color: rgb(245, 229, 8);
+  box-shadow: 0 7px 7px 0 rgb(19, 15, 15);
+}
+img {
+  border-radius: 10px;
+  box-shadow: 0 7px 7px 0 rgb(19, 15, 15);
+}
