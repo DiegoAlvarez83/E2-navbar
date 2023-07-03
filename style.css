@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
+/*  =========== HEADER ===========  */
 nav {
   display: flex;
   justify-content: space-around;
@@ -19,7 +20,7 @@ body {
 }
 nav {
   background-color: red;
-  font-size: xx-large;
+  font-size: larger;
 }
 ul a {
   text-decoration: none;
@@ -29,4 +30,82 @@ ul a {
 img {
   border-radius: 10px;
   box-shadow: 0 7px 7px 0 rgb(19, 15, 15);
+  width: 150px;
+}
+/*  =========== HERO SECTION ===========  */
+main {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: yellow;
+}
+
+#hero {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  margin-top: 65px;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-info h1 {
+  font-size: 55px;
+  font-weight: 800;
+  width: 80%;
+  min-width: 500px;
+}
+
+.hero-info p {
+  font-size: 30px;
+  width: 70%;
+}
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  border: none;
+
+  text-align: center;
+  cursor: pointer;
+}
+.hero-button {
+  display: flex;
+
+  gap: 10px;
+}
+.button--primary {
+  background-color: yellow;
+  color: red;
+}
+.button--secondary {
+  background: none;
+  color: yellow;
+  border: 3px solid yellow;
+}
+.hero-card {
+  background-color: yellow;
+  width: 190px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 10px;
 }
