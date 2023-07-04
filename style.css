@@ -100,7 +100,7 @@ main {
 }
 .hero-card {
   background-color: yellow;
-  width: 190px;
+  width: 400px;
   padding: 20px;
   border-radius: 15px;
   display: flex;
@@ -108,4 +108,14 @@ main {
   /* justify-content: center; */
   /* align-items: center; */
   gap: 10px;
+}
+.hero-card img {
+  width: 350px;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  font-size: 35px;
+  width: 95%;
 }
